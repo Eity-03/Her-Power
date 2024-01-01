@@ -1,0 +1,32 @@
+nav{
+    background-color: rgb(187, 255, 0);
+    height: 60px;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    float: right;
+}
+.eity{
+    margin-left: 20px;
+    font-size: 50px;
+}
+nav ul li{
+  display:inline-block ;
+  font-size: 20px;
+  margin: 20px;
+}
+nav ul li a{
+    color: black;
+    padding:8px
+}
+nav ul li a:hover{
+    background-color: bisque;
+    color: blue;
+    padding: 8px;
+    border-radius: 5px;
+}

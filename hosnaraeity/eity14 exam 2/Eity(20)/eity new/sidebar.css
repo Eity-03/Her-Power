@@ -1,0 +1,94 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flaotright{
+    float: right;
+}
+.flaotleft{
+    float: left;
+    color: aqua;
+}
+.padding32{
+    padding:right;
+    
+}
+.padding32 a{
+    font-size: 30px;
+    color: blanchedalmond;
+}
+a{
+    color: rgb(242, 224, 224);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+i{
+    color: rgb(43, 226, 80);
+    margin-right: 5px;
+}
+.nav{
+    background-color: black;
+    height: 60px
+
+}
+.sb-element{
+    background-color:black ;
+    width:180px ;
+    padding: 25px ;
+    margin-left: -300px;
+    transition: .6s;
+}
+.sb-element li{
+    padding-top: 15px;
+}
+#navbtn{
+    display: none;
+}
+#navbtn:checked ~ .sb-element{
+    margin-left: 0;
+    transition: .6s;
+}
+label {
+cursor: pointer;
+border-right: 1px solid greenyellow;
+display: block;
+height:64px;
+width: 64px;
+position: relative;
+}
+
+label span {
+    border-radius: 15%;
+    height: 3px;
+    width: 32px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+}
+label span::before {
+    border-radius: 15%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    top: -400%
+
+}
+
+label span::after {
+    border-radius: 15%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    top: 400%
+
+}

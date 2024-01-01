@@ -1,0 +1,38 @@
+nav{
+    background-color:  rgb(223, 223, 72); 
+    height: 70px;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+      margin:0;
+    padding:0;
+}
+    
+.head{
+    margin-left: 30px;
+    font-size: 50px;
+}
+.head  a{
+    color:black ;
+}
+nav ul li a:hover{
+padding:8px ;
+border-radius: 5px;
+background-color: aqua;
+color:white;
+}
+nav ul li a {
+    color: brown;
+    padding: 8px;
+}
+
+nav ul li{
+    display:inline-block;
+   margin-right:30px;
+   font-size: 20px;
+}
+nav ul{
+  float: right;
+}
+

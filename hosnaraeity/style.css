@@ -1,0 +1,30 @@
+body{
+    background-image: url(cat.jpg);
+    background-repeat: repeat-x;
+    background-size:500px;
+    
+}
+
+h1,h3{border: 13px solid green;
+    border-radius: 18px;
+}
+
+h1{
+     padding-top:20px ;
+}
+    .heading{
+        color:black;
+        background-color: rgb(43, 255, 0);
+    }
+    p{
+        color:aqua
+    }
+    .tb{
+        color: blueviolet;
+    }
+    .tb2{
+        color:green
+    }
+    .head2{
+        color:pink
+    }

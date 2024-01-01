@@ -1,0 +1,51 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    background-color: rgb(43, 226, 43);
+    font-size:20px ;
+    padding: 45px;
+    
+}
+
+nav b a{
+    color: black;
+    font-size: 40px;
+}
+nav ul li a{
+    color: blue!important;
+}
+nav ul li a{
+    color: brown;
+    padding: 8px;
+}
+nav ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+    padding:8px ;
+text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+    margin:15px;
+    font-size:30px;
+    padding:8px
+
+
+}
+nav ul{
+    float:right ;
+}
+h3{
+
+    font-size:30px;
+    border-bottom: 5px solid black;
+
+}
+img{
+    margin-top: 10px;
+}
+

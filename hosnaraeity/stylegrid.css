@@ -1,0 +1,28 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px  100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px ;
+    justify-content:center
+    
+    
+}
+.grid-container div {
+    background-color: rgb(255, 0, 76);
+    border: 1px solid rgb(0, 255, 21);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+.iteam2{
+    grid-area: 1/2/3/4;
+}
+.iteam6{
+    grid-area: 2/4/3/6;
+    
+}
+.iteam7{
+     grid-area: ;
+    
+}
+
